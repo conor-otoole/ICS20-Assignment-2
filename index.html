@@ -32,22 +32,22 @@
           <nav class="mdl-navigation"></nav>
         </div>
       </header>
-        <nav class="mdl-navigation"></nav>
-      </div>
-      <main class="mdl-layout__content">
-        <div class="page-content">
-          <br> 
-          <h1> The formula </h1>
-          <img
-            src="./images/Area of a parallelogram.jpeg"
-            alt="Area of a parallelogram"
-            width="250"
-            height="250"
-          />
-          <br> 
-          <p> Please click the button below </p> 
-            <!-- Simple Textfield -->
-           <form action="#">
+      <nav class="mdl-navigation"></nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <br />
+        <h1>The formula</h1>
+        <img
+          src="./images/Area of a parallelogram.jpeg"
+          alt="Area of a parallelogram"
+          width="250"
+          height="250"
+        />
+        <br />
+        <p>Please click the button below</p>
+        <!-- Simple Textfield -->
+        <form action="#">
           <p>Base</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
@@ -56,11 +56,13 @@
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="length-of-rectangle"
             />
-            <label class="mdl-textfield__label" for="length-of-rectangle">Base ...</label>
+            <label class="mdl-textfield__label" for="length-of-rectangle"
+              >Base ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-             <!-- Numeric Textfield -->
+        <!-- Numeric Textfield -->
         <form action="#">
           <p>Height</p>
           <div class="mdl-textfield mdl-js-textfield">
@@ -70,14 +72,20 @@
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="width-of-rectangle"
             />
-            <label class="mdl-textfield__label" for="width-of-rectangle">Height ...</label>
+            <label class="mdl-textfield__label" for="width-of-rectangle"
+              >Height ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-<!-- Colored raised button -->
-    <button
-    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-    onclick="calculate()"
+        <!-- Colored raised button -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="calculate()"
         >
           Calculate
         </button>
+      </div>
+    </main>
+  </body>
+</head>
