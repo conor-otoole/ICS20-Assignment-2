@@ -12,13 +12,17 @@
 /**
 /* Function */
 function calculate() {
-    // Input
-    const base = parseInt(document.getElementById("length-of-parallelogram").value)
-    const height = parseInt(document.getElementById("width-of-parallelogram").value)
+  // Input
+  const base = parseInt(
+    document.getElementById("length-of-parallelogram").value
+  )
+  const height = parseInt(
+    document.getElementById("width-of-parallelogram").value
+  )
 
-    // Process
-    const area = base * height
+  // Process
+  const area = base * height
 
-    // Output
-    document.getElementById("area").innerHTML = "The area is:" + area + "cm²"
+  // Output
+  document.getElementById("area").innerHTML = "The area is:" + area + "cm²"
 }
